@@ -1,0 +1,3 @@
+ - jogar SINRTable (linha 1082 do arquivo hCQISelect.m)
+ - implementar transmissão DL, modificando MCS com base no CSIReport
+ - gráfico MCS por subbanda
