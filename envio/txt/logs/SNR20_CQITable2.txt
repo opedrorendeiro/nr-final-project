@@ -1,0 +1,55 @@
+Simulating transmission scheme 1 (8x4) and SCS=15kHz with TDL-C channel at 20dB SNR for 5 10ms frame(s)
+Using RI, PMI, and CQI as CSI feedback.
+
+( 2.00%) NSlot= 0:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.887). Using initial CSI. CSI-RS transmission. 
+( 4.00%) NSlot= 1:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+( 6.00%) NSlot= 2:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+( 8.00%) NSlot= 3:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(10.00%) NSlot= 4:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(12.00%) NSlot= 5:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.887). CSI-RS transmission. 
+(14.00%) NSlot= 6:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(16.00%) NSlot= 7:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(18.00%) NSlot= 8:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(20.00%) NSlot= 9:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(22.00%) NSlot=10:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.887). CSI-RS transmission. 
+(24.00%) NSlot=11:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.926, CR=0.821).
+(26.00%) NSlot=12: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760). Using CSI from NSlot= 0.
+(28.00%) NSlot=13: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(30.00%) NSlot=14: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(32.00%) NSlot=15:    Transmission failed (Layers=2, Mod=64QAM, TCR=0.853, CR=0.821). CSI-RS transmission. 
+(34.00%) NSlot=16:    Transmission failed (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(36.00%) NSlot=17:    Transmission failed (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760). Using CSI from NSlot= 5.
+(38.00%) NSlot=18:    Transmission failed (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(40.00%) NSlot=19: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(42.00%) NSlot=20: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.821). CSI-RS transmission. 
+(44.00%) NSlot=21: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(46.00%) NSlot=22: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760). Using CSI from NSlot=10.
+(48.00%) NSlot=23: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(50.00%) NSlot=24: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(52.00%) NSlot=25: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.821). CSI-RS transmission. 
+(54.00%) NSlot=26: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(56.00%) NSlot=27: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.754, CR=0.669). Using CSI from NSlot=15.
+(58.00%) NSlot=28: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.754, CR=0.669).
+(60.00%) NSlot=29: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.754, CR=0.669).
+(62.00%) NSlot=30: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.754, CR=0.723). CSI-RS transmission. 
+(64.00%) NSlot=31: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.754, CR=0.669).
+(66.00%) NSlot=32: Transmission succeeded (Layers=2, Mod=256QAM, TCR=0.694, CR=0.615). Using CSI from NSlot=20.
+(68.00%) NSlot=33: Transmission succeeded (Layers=2, Mod=256QAM, TCR=0.694, CR=0.615).
+(70.00%) NSlot=34: Transmission succeeded (Layers=2, Mod=256QAM, TCR=0.694, CR=0.615).
+(72.00%) NSlot=35:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.694, CR=0.665). CSI-RS transmission. 
+(74.00%) NSlot=36:    Transmission failed (Layers=2, Mod=256QAM, TCR=0.694, CR=0.615).
+(76.00%) NSlot=37: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760). Using CSI from NSlot=25.
+(78.00%) NSlot=38: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(80.00%) NSlot=39: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(82.00%) NSlot=40:    Transmission failed (Layers=2, Mod=64QAM, TCR=0.853, CR=0.821). CSI-RS transmission. 
+(84.00%) NSlot=41: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(86.00%) NSlot=42: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760). Using CSI from NSlot=30.
+(88.00%) NSlot=43: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(90.00%) NSlot=44: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(92.00%) NSlot=45: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.821). CSI-RS transmission. 
+(94.00%) NSlot=46: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(96.00%) NSlot=47: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760). Using CSI from NSlot=35.
+(98.00%) NSlot=48: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+(100.00%) NSlot=49: Transmission succeeded (Layers=2, Mod=64QAM, TCR=0.853, CR=0.760).
+
+Throughput(Mbps) for 5 frame(s) = 31.3872

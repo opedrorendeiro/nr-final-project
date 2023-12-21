@@ -1,0 +1,41 @@
+% Simulation length
+NFrames = 5;
+
+% SCS carrier parameters
+Carrier.NSizeGrid = 52;            % Bandwidth in number of resource blocks
+Carrier.SubcarrierSpacing = 15;    % 15, 30, 60, 120 (kHz)
+Carrier.CyclicPrefix = 'Normal';   % 'Normal' or 'Extended' (Extended CP is relevant for 60 kHz SCS only)
+
+% Antenna parameters
+% Due to polarization, the overall number of antennas is 2×N1×N2×Ng.
+TransmitAntennaArray.NumPanels        = 1; % Number of panels in horizontal dimension (Ng)
+TransmitAntennaArray.PanelDimensions  = [2 2]; % Number of columns and rows in a panel (N1, N2)
+ReceiveAntennaArray.NumPanels         = 1; % Number of panels in horizontal dimension (Ng)
+ReceiveAntennaArray.PanelDimensions   = [2 1]; % Number of columns and rows in a panel (N1, N2)
+
+% CSIRS parameters
+CSIRS = nrCSIRSConfig;
+CSIRS.CSIRSType = 'nzp'; % 'nzp','zp'
+CSIRS.RowNumber = 6; % 1...18
+CSIRS.NumRB = simParameters.Carrier.NSizeGrid - simParameters.CSIRS.RBOffset;
+CSIRS.CSIRSPeriod = [5 0];  % number of slots between 2 consecutive CSI-RSs
+CSIRS.SymbolLocations = 4;
+CSIRS.SubcarrierLocations = [0,3,6,9];
+CSIRS.Density = 'one';
+
+% CSI Feedback parameters
+CSIReportConfig.CQITable          = "Table1"; % 'Table1','Table2','Table3'
+CSIReportConfig.CQIMode           = 'Wideband'; % 'Wideband','Subband'
+CSIReportConfig.PMIMode           = 'Subband'; % 'Wideband','Subband'
+CSIReportConfig.CodebookType      = 'Type1SinglePanel'; % 'Type1SinglePanel','Type1MultiPanel','Type2'
+
+% Channel parameters
+DelayProfile = 'TDL-C';   % 'CDL-A',...,'CDL-E','TDL-A',...,'TDL-E'
+DelaySpread = 300e-9;     % s
+MaximumDopplerShift = 50;  % Hz
+
+% Processing delay
+% For the UE, this delay is the number of time slots between the reception of the CSI-RS and the availability of the CSI feedback.
+% For the gNodeB, the delay is the number of time slots between the reception of the CSI report and the transmission using the recommended CSI.
+UEProcessingDelay = 7;
+BSProcessingDelay = 1;
